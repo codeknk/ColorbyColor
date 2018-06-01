@@ -10,7 +10,6 @@
 
 
     <ImageView
-
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="58dp"
-        android:text="'하늘아래 같은 색은 없다'"
+        android:text="'하늘 아래 같은 색은 없다'"
         android:textStyle="italic"
         android:textColor="@color/colorDarkGray"
         android:layout_gravity="center"
