@@ -98,5 +98,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnDetail(View view) {
+        Intent intent =new Intent(this,RGBActivity.class);
+       // intent.putExtra("item","red lipstick");
+        startActivity(intent);
     }
 }
