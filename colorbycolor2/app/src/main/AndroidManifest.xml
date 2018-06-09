@@ -6,7 +6,10 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+=======
+>>>>>>> f0fbfb471b67d1cfe85f2317941ae7066b486dcc
 
     <application
         android:allowBackup="true"
@@ -22,10 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".SearchActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".RGBActivity"></activity>
+=======
+        <activity android:name=".MainActivity" />
+        <activity android:name=".QuickSearchActivity" />
+        <activity android:name=".QSearchResultActivity"></activity>
+>>>>>>> f0fbfb471b67d1cfe85f2317941ae7066b486dcc
     </application>
 
 </manifest>
